@@ -39,6 +39,7 @@
       font-family: var(--font-body);
       min-height: 100vh;
       min-height: -webkit-fill-available;
+      min-height: 100dvh;
       cursor: crosshair;
       overflow-x: hidden;
       width: 100%;
@@ -152,8 +153,8 @@
       min-height: calc(100vh - 119px);
       display: flex;
       align-items: center;
-      justify-content: center;
-      padding: 3rem 1.5rem 4rem;
+      justify-content: flex-start;
+      padding: 4rem 1.5rem 4rem;
     }
     .contact-wrap { width: 100%; max-width: 640px; display: flex; flex-direction: column; gap: 3rem; animation: fadeUp 1s ease forwards; opacity: 0; }
     @keyframes fadeUp { from {opacity:0;transform:translateY(20px);} to {opacity:1;transform:translateY(0);} }
